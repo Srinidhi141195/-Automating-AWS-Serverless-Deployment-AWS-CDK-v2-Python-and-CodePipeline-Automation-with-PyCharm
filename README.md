@@ -1,6 +1,10 @@
 
 # Welcome to your CDK Python project!
 
+In my recent project, I leveraged AWS Cloud Development Kit (CDK) v2, utilizing Python as the primary programming language within the PyCharm IDE. The project aimed to streamline serverless application deployment by configuring an AWS Lambda function resource and integrating it with an SQS queue. The CDK's infrastructure-as-code approach enabled the seamless definition of the entire architecture.
+
+To automate the deployment workflow, I implemented AWS CodePipeline, orchestrating the build and deployment processes. This included pushing the source code, housed in a Git repository, through a series of stages. The CI/CD pipeline ensured that changes to the codebase were systematically validated, built, and deployed, enhancing the overall development and release cycle efficiency. This comprehensive automation not only reduced manual intervention but also facilitated rapid iterations and updates to the application. The PyCharm IDE further contributed to the development experience, providing a robust environment for coding, testing, and debugging throughout the project lifecycle.
+
 This is a blank project for CDK development with Python.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
